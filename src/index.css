@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-navy-850: #102444;
+  --color-navy-900: #0A1F44;
+  --color-navy-950: #051126;
+  --color-gold-50: #FAF7EF;
+  --color-gold-100: #F3ECDC;
+  --color-gold-300: #E2CE9F;
+  --color-gold-400: #D4B878;
+  --color-gold-500: #C9A961;
+  --color-gold-600: #B5954E;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAFAFA;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Elegant pulse for legal processing */
+@keyframes delicatePulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.5; }
+}
+
+.delicate-pulse {
+  animation: delicatePulse 2s ease-in-out infinite;
+}
+

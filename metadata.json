@@ -1,0 +1,6 @@
+{
+  "name": "Suprabhat Mishra & Associates",
+  "description": "Premium Advocate Workspace & AI legal solutions portal for Adv. Suprabhat Mishra, Collectorate Court Kanpur Nagar. Includes interactive stamp duty calculator, IPC/CrPC legal guide, and Gemini-powered consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
